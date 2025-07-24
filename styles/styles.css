@@ -353,7 +353,7 @@
     grid-gap: 2rem;
     padding-bottom: 3rem;
   }
-  .ecucation .education-item {
+  .education .education-item {
     position: relative;
     padding-left: 3rem;
     border-left: 1px solid var(--color-grey-5);
