@@ -326,13 +326,15 @@ section {
         transform: translateX(-50%);
     }
 }
-/*Education*/
-.education {
+
+
+/*Timeline*/
+.timeline {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     padding-bottom: 3rem;
-    .education-item {
+    .timeline-item {
         position: relative;
         padding-left: 3rem;
         border-left: 1px solid var(--color-grey-5);
@@ -372,7 +374,7 @@ section {
         p{ color: var(--color-grey-2); }
     }
 }
-/*Timeline*/
+
 .timeline {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
