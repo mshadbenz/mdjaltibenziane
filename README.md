@@ -12,7 +12,7 @@ I am an Electronic Engineer with a strong interest in embedded systems, robotics
 
 - **Programming Languages**: C/C++, Python, Arduino.
 - **Electronics & Embedded Systems**: Microcontrollers Arduino, sensors.
-- **Tools & Software**: MATLAB, Proteus, Altium Designer, KiCad
+- **Tools & Software**: MATLAB, Simulink, AutoCAD, Cisco.
 - **Web**: HTML, CSS, GitHub
 - **Languages**: English, Spanish, French, Arabic
 
