@@ -525,7 +525,9 @@
   }
   
   .blogs {
-    display: grid;
+    display: block;
+    opacity: 1
+    visibility: visible;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;
     margin-top: 3rem;
