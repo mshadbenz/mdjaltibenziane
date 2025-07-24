@@ -1046,14 +1046,25 @@
     .main-title h2 .bg-text {
       font-size: 4rem;
     }
-      .footer {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #111;
-    color: #fff;
-    font-size: 14px;
-    }  
-  }
+     body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    }
+
+    main {
+        flex: 1;
+    }
+
+    footer {
+        margin-top: auto;
+        text-align: center;
+        padding: 1em 0;
+        background-color: #111;
+        color: #fff;
+    }
+
+    }
   
   /*# sourceMappingURL=styles.css.map */
   
