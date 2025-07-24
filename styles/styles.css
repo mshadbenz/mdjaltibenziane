@@ -1046,6 +1046,13 @@
     .main-title h2 .bg-text {
       font-size: 4rem;
     }
+      .footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #111;
+    color: #fff;
+    font-size: 14px;
+    }  
   }
   
   /*# sourceMappingURL=styles.css.map */
