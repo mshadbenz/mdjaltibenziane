@@ -30,4 +30,5 @@ The portfolio website includes the following sections:
 Feel free to connect with me via:
 
 Email: mxhadjaltibenziane@gmail.com
-LinkedIn: linkedin.com/in/mxhadbenz
+
+LinkedIn: https://www.linkedin.com/in/mxhadbenz/
