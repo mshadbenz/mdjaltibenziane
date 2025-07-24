@@ -64,6 +64,11 @@
         }
     }
 
+    .education{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+    }
+
     .timeline{
         grid-template-columns: repeat(1, 1fr);
         padding-bottom: 6rem;
@@ -261,6 +266,10 @@
         grid-template-columns: repeat(1, 1fr);
     }
     .about-container .right-about{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+      .education{
         grid-template-columns: repeat(1, 1fr);
     }
 
