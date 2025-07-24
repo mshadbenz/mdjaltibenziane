@@ -809,7 +809,12 @@
     .about-container .left-about p {
       padding-left: 0;
     }
-  
+
+    .education {
+      grid-template-columns: repeat(1, 1fr);
+      padding-bottom: 6rem;
+    }
+      
     .timeline {
       grid-template-columns: repeat(1, 1fr);
       padding-bottom: 6rem;
@@ -997,7 +1002,11 @@
     .about-container .right-about {
       grid-template-columns: repeat(1, 1fr);
     }
-  
+
+    .education {
+      grid-template-columns: repeat(1, 1fr);
+    }
+      
     .timeline {
       grid-template-columns: repeat(1, 1fr);
     }
