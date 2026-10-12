@@ -1,6 +1,9 @@
     <!DOCTYPE html>
 <html lang="en">
 <style>
+html { scroll-behavior: smooth; }
+body.main-content { height: auto !important; overflow-y: auto !important; }
+.container { scroll-margin-top: 5rem; } /* keeps titles clear of the top nav bar */
     .controls {
         position: fixed !important;
         top: 1rem !important;
@@ -325,6 +328,34 @@ Gained hands-on experience in electronic optimization techniques and sustainable
         <i class="fas fa-adjust"></i>
     </div>
     <script src="app.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const sections = document.querySelectorAll('.container');
+  const controls = document.querySelectorAll('.control');
+
+  // 1) Show every section on the page
+  sections.forEach(s => s.classList.add('active'));
+
+  // 2) Nav buttons scroll to their section instead of hiding the others
+  document.querySelector('.controls').addEventListener('click', e => {
+    const btn = e.target.closest('.control');
+    if (!btn) return;
+    e.stopPropagation(); // stops app.js from hiding the other sections
+    const target = document.getElementById(btn.dataset.id);
+    if (target) target.scrollIntoView({ behavior: 'smooth' });
+  }, true);
+
+  // 3) Highlight the nav button of the section you're viewing
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        controls.forEach(c => c.classList.toggle('active-btn', c.dataset.id === entry.target.id));
+      }
+    });
+  }, { rootMargin: '-40% 0px -50% 0px' });
+  sections.forEach(s => observer.observe(s));
+});
+</script>
     <footer style="text-align: center; padding: 20px 0; background-color: #111; color: #fff;">
             &copy; 2025 Mohammed DJALTI BENZIANE. All rights reserved.
     </footer>
